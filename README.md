@@ -39,15 +39,15 @@ In this challenge, I will use my knowledge of Python and unsupervised learning t
 
 ### Results
 
-  Original Data Clustering:
+1. Original Data Clustering:
     Clusters formed with some overlaps in certain plots.
     Optimal k identified using the elbow method.
 
-  PCA Data Clustering:
+2. PCA Data Clustering:
     Clearer and more distinct clusters with reduced overlaps.
     Optimal k identified using the elbow method.
 
-  Same Number of Clusters:
+3. Same Number of Clusters:
     Both methods (original scaled data and PCA data) determined the same number of clusters: 4.
 
 ### Conclusion
