@@ -1,11 +1,11 @@
-## CryptoClustering
-# Unsupervised_Learning
+# CryptoClustering
+## Unsupervised_Learning
 
-# Introduction
+### Introduction
 
 In this challenge, I will use my knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes. This analysis aims to cluster cryptocurrencies based on their market performance using K-means clustering.
 
-# Project Structure
+### Project Structure
 
 1. Data preprocessing:
     The cryptocurrency market dataset was loaded and examined.
@@ -37,7 +37,7 @@ In this challenge, I will use my knowledge of Python and unsupervised learning t
     Composite plots are created to contrast the elbow curves and clustering results.
     The impact of using fewer features for clustering is analysed.
 
-# Results
+### Results
 
   Original Data Clustering:
     Clusters formed with some overlaps in certain plots.
@@ -50,6 +50,6 @@ In this challenge, I will use my knowledge of Python and unsupervised learning t
   Same Number of Clusters:
     Both methods (original scaled data and PCA data) determined the same number of clusters: 4.
 
-# Conclusion
+### Conclusion
 
 Using PCA for dimensionality reduction before clustering with K-means results in clearer and more distinct clusters. This approach reduces the complexity of the data, making clustering more efficient and visualisation more interpretable. However, some information loss may occur due to dimensionality reduction.
